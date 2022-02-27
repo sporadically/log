@@ -2,6 +2,14 @@
 
 a.k.a., random notes.
 
+GitHub Pages site:
+
+- https://sporadically.github.io/log/
+
+Source repository
+
+- https://github.com/sporadically/log
+
 ## Git Config
 
 ### Account-level Git Config
@@ -31,3 +39,18 @@ git config user.name "Your Name"
 
 The result of the above commands is stored in
 `.git/config` file in the repository.
+
+## If Permission Denied by Git Push
+
+If you receive the "**Permission denied (publickey)**" error
+from `git push`,
+try the following.
+This will open the browser and
+GtiHub Credential Manager lets you set up the access.
+
+```bash
+git remote set-url origin https://<username>@github.com/<username>/<repo>.git
+```
+
+The result of the above command is stored in
+the `[remote "origin"]` section of `.git/config` file.
