@@ -6,7 +6,7 @@ GitHub Pages site:
 
 - https://sporadically.github.io/log/
 
-Source repository
+Repository
 
 - https://github.com/sporadically/log
 
@@ -40,7 +40,7 @@ git config user.name "Your Name"
 The result of the above commands is stored in
 `.git/config` file in the repository.
 
-## If Permission Denied by Git Push
+### If Permission Denied by Git Push
 
 If you receive the "**Permission denied (publickey)**" error
 from `git push`,
