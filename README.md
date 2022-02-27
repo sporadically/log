@@ -40,7 +40,7 @@ git config user.name "Your Name"
 The result of the above commands is stored in
 `.git/config` file in the repository.
 
-### If Permission Denied by Git Push
+## If Permission Denied by Git Push
 
 If you receive the "**Permission denied (publickey)**" error
 from `git push`,
@@ -54,3 +54,9 @@ git remote set-url origin https://<username>@github.com/<username>/<repo>.git
 
 The result of the above command is stored in
 the `[remote "origin"]` section of `.git/config` file.
+
+## GitHub Pages
+
+[About GitHub Pages and Jekyll][url_gh_jekyll]
+
+[url_gh_jekyll]:https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
